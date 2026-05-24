@@ -1,5 +1,13 @@
 # ECZ Stratos Kafka Sovereign Shield
 
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
+![Security](https://img.shields.io/badge/Security-Zero--Trust-critical)
+![License](https://img.shields.io/badge/License-Proprietary-red)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
+![Kafka](https://img.shields.io/badge/Kafka-Enabled-orange)
+
+
 A zero-trust anti-fraud kernel designed to protect frontier AI API platforms from large‑scale abuse, proxy‑based identity spoofing, and unauthorized session replication.
 
 This system enforces server-side TTL, biometric liveness validation, hardware fingerprinting, and Kafka-based revocation propagation to neutralize the emerging threat of grey‑market API resellers and high-volume token abuse.
