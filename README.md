@@ -1,16 +1,10 @@
-# ECZ Stratos Kafka Sovereign Shield
+# Stratos Kafka — Sovereign Shield  
+**Enterprise Zero‑Trust Anti‑Fraud Kernel**  
+© 2026 ECZ Quantum Labs — All Rights Reserved
 
-![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
-![Version](https://img.shields.io/badge/Version-v1.0.0-blue)
-![Security](https://img.shields.io/badge/Security-Zero--Trust-critical)
-![License](https://img.shields.io/badge/License-Proprietary-red)
-![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
-![Kafka](https://img.shields.io/badge/Kafka-Enabled-orange)
+A zero‑trust anti‑fraud kernel designed to protect frontier AI API platforms from large‑scale abuse, proxy‑based identity spoofing, and unauthorized session replication.
 
-
-A zero-trust anti-fraud kernel designed to protect frontier AI API platforms from large‑scale abuse, proxy‑based identity spoofing, and unauthorized session replication.
-
-This system enforces server-side TTL, biometric liveness validation, hardware fingerprinting, and Kafka-based revocation propagation to neutralize the emerging threat of grey‑market API resellers and high-volume token abuse.
+This system enforces server‑side TTL, biometric liveness validation, hardware fingerprinting, and Kafka‑based revocation propagation to neutralize the emerging threat of grey‑market API resellers and high‑volume token abuse.
 
 ---
 
@@ -18,12 +12,12 @@ This system enforces server-side TTL, biometric liveness validation, hardware fi
 
 Recent investigations (Oxford China Policy Lab, CISPA, ChinaTalk) revealed a rapidly growing underground ecosystem of “transfer stations” in China:
 
-- GPT‑5.x and Claude API access resold at **96–97% off**
-- Students burning **100M+ tokens/day for ~$1**
-- Accounts farmed using stolen credit cards
-- Liveness checks bypassed using low-income identity brokers
-- Prompts and outputs logged and resold for model distillation
-- Widespread model substitution across 17 audited proxy stations
+- GPT‑5.x and Claude API access resold at **96–97% off**  
+- Students burning **100M+ tokens/day for ~$1**  
+- Accounts farmed using stolen credit cards  
+- Liveness checks bypassed using low‑income identity brokers  
+- Prompts and outputs logged and resold for model distillation  
+- Widespread model substitution across 17 audited proxy stations  
 
 This represents a critical security gap for frontier AI companies.
 
@@ -33,88 +27,111 @@ This represents a critical security gap for frontier AI companies.
 
 ## 🚀 Core Capabilities
 
-### • Zero-Trust Session Enforcement
-Every API request is validated using multi-layer identity signals:
+### • Zero‑Trust Session Enforcement  
+Every API request is validated using multi‑layer identity signals:
 
-- Hardware fingerprint
-- Biometric liveness (pipeline-ready)
-- TTL-bound session tokens
-- Device-bound cryptographic signatures
+- Hardware fingerprint  
+- Biometric liveness (pipeline‑ready)  
+- TTL‑bound session tokens  
+- Device‑bound cryptographic signatures  
 
-### • Kafka-Based Revocation Propagation
+### • Kafka‑Based Revocation Propagation  
 Compromised sessions are revoked and propagated across distributed nodes within milliseconds.
 
-### • Hardware Fingerprinting
+### • Hardware Fingerprinting  
 Ensures tokens cannot be replayed from unauthorized devices or proxy servers.
 
-### • Quarantine Engine
+### • Quarantine Engine  
 Suspicious sessions are isolated, logged, and escalated for automated or manual review.
 
-### • Anti-Proxy Architecture
+### • Anti‑Proxy Architecture  
 Designed to detect:
 
-- VPN tunneling
-- Proxy chaining
-- IP rotation farms
-- Model substitution patterns
-- High-volume token abuse
+- Residential proxy farms  
+- Mobile IP rotations  
+- Datacenter spoofing  
+- Model substitution pipelines  
 
 ---
 
-## 📁 Repository Structure
+## 🧩 Architecture Overview
 
-01_Core_Backend/          # Core zero-trust engine
-02_Commercial_IP/         # Proprietary components
-04_Simulation_Tests/      # Abuse scenarios and validation
-DEPLOYMENT_LOG_v1.0.txt   # Deployment history
-LICENSE                   # Proprietary license
+Stratos Kafka / Sovereign Shield is built on a four‑layer sovereign‑grade architecture:
 
----
+### **Layer 1 — Event Ingestion**  
+Secure Kafka clusters, encrypted connectors, device‑bound session streams.
 
-## 🧪 Simulation & Abuse Testing
+### **Layer 2 — Processing & Correlation**  
+Distributed microservices, anomaly detectors, behavioral scoring engines.
 
-The `04_Simulation_Tests` module includes:
+### **Layer 3 — Policy Enforcement**  
+Zero‑trust segmentation, identity binding, sovereign isolation.
 
-- Token replay attacks
-- Proxy-station identity spoofing
-- Hardware mismatch scenarios
-- TTL expiration tests
-- Kafka propagation validation
-- High-volume token burn simulations
+### **Layer 4 — Intelligence & Response**  
+Threat scoring, revocation propagation, quarantine automation, audit trails.
 
 ---
 
-## 🔒 Licensing
+## 🛡️ Threat Model
 
-This project is protected under a **Proprietary License**.
-Viewing is allowed.
-Copying, modifying, redistributing, or commercial use is strictly prohibited.
+The system is designed to neutralize:
 
-For commercial licensing or partnership inquiries:
-📧 araxteam@proton.me
-
----
-
-## 📦 Release Notes
-
-Latest stable release: **v1.0.0**
-
-Includes:
-
-- Core backend quarantine engine
-- Commercial IP components
-- Simulation test suite
-- Deployment log v1.0
-- Proprietary license protection
+- API key resale markets  
+- Session hijacking  
+- Device spoofing  
+- Proxy‑based identity laundering  
+- Token‑burning farms  
+- Model substitution attacks  
+- Credential‑stuffing automation  
+- High‑volume abuse pipelines  
 
 ---
 
-## 🌐 About ECZ Quantum Labs
+## 🏢 Enterprise Deployment Options
 
-ECZ Quantum Labs builds next-generation security infrastructure for frontier AI systems, focusing on:
+- On‑premises (air‑gapped supported)  
+- Private cloud  
+- Hybrid deployment  
+- Sovereign infrastructure mode  
 
-- Zero-trust identity
-- Biometric verification
-- Distributed revocation
-- Secure API access
+Deployment guides are provided after license activation.
+
+---
+
+## 💼 Commercial Licensing
+
+This software is distributed under a **commercial license**.  
+Unauthorized copying, redistribution, or modification is strictly prohibited.
+
+### License Model
+
+- Per‑organization license  
+- Annual subscription  
+- Optional enterprise support  
+- Optional sovereign‑deployment add‑ons  
+
+To request a license:  
+**araxteam@proton.me**
+
+---
+
+## 🆘 Enterprise Support
+
+Commercial customers receive:
+
+- Priority security patches  
+- Architecture guidance  
+- Integration support  
+- Incident response assistance  
+
+---
+
+## 🔒 Intellectual Property Notice
+
+© 2026 ECZ Quantum Labs  
+All rights reserved.  
+This repository contains proprietary technology and is protected under international IP law.
+
+Redistribution or reverse‑engineering is prohibited without written permission.
+
 
