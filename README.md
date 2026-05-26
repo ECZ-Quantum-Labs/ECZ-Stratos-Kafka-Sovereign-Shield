@@ -1,4 +1,3 @@
-
 # Sovereign Shield • Zero-Trust Anti-Fraud Kernel
 
 [![Status](https://img.shields.io/badge/Status-Stable-brightgreen)](https://github.com/ECZ-Quantum-Labs/Sovereign-Shield)
@@ -79,7 +78,7 @@ This isn't a bolt-on dashboard. It's a minimalist, hardened enforcer that sits s
 Sovereign Shield sits as a silent, stateless enforcement layer directly in your API path.
 It does not rely on external databases or third‑party services—every decision is made at the edge, in milliseconds.
 
-```
+```text
 API REQUEST
 |
 v
@@ -134,3 +133,4 @@ We typically offer:
 
 ---
 *Sovereign Shield. Because the next proxy reseller is already testing your API.*
+
