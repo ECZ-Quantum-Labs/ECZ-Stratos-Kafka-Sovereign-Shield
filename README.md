@@ -80,7 +80,6 @@ Sovereign Shield sits as a silent, stateless enforcement layer directly in your 
 It does not rely on external databases or third‑party services—every decision is made at the edge, in milliseconds.
 
 ```
-
 API REQUEST
 |
 v
@@ -99,24 +98,23 @@ PROPAGATION
 |
 v
 QUARANTINE
-
 ```
 
 **Key Architectural Layers**
 
-* **Edge Enforcement Layer**
+* **Edge Enforcement Layer**  
   Validates every request before it touches your backend. Session-bound, TTL-gated, and identity‑aware.
 
-* **Hardware Attestation Module**
+* **Hardware Attestation Module**  
   Fingerprints the underlying device and OS. Detects emulators, cloud VMs, and proxy stacks.
 
-* **Kafka Revocation Mesh**
+* **Kafka Revocation Mesh**  
   Propagates kill signals across distributed nodes in milliseconds. Once revoked, a session cannot be reused anywhere in your infrastructure.
 
-* **Threat Quarantine Enclave**
+* **Threat Quarantine Enclave**  
   Suspicious sessions are isolated and logged with full forensic context. No data leaves the enclave.
 
-* **API Gateway Integration Pattern**
+* **API Gateway Integration Pattern**  
   Plugs directly into Kong, NGINX, or Envoy. No application code changes required.
 
 ---
@@ -136,4 +134,3 @@ We typically offer:
 
 ---
 *Sovereign Shield. Because the next proxy reseller is already testing your API.*
-```
