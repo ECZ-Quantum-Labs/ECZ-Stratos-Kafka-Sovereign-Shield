@@ -71,36 +71,6 @@ This isn't a bolt-on dashboard. It's a minimalist, hardened enforcer that sits s
 | IP Rotation Farms | Unblockable bot traffic | Protocol-level proxy detection |
 | Slow Breach Response | Hours or days to revoke | Kafka-driven millisecond propagation |
 
----
-
-## 🧱 Architecture Overview
-
-Sovereign Shield sits as a silent, stateless enforcement layer directly in your API path.
-It does not rely on external databases or third‑party services—every decision is made at the edge, in milliseconds.
-
----
-
-API REQUEST
-|
-v
-EDGE ENFORCEMENT
-|
-+--[Valid]----> HARDWARE ATTEST
-|                   |
-|                   +--[Pass]--> GATEWAY --> SERVICE
-|                   |
-|                   +--[Fail]--> THREAT SIGNAL
-|
-+--[Suspicious]--> KAFKA MESH
-|
-v
-PROPAGATION
-|
-v
-QUARANTINE
-
----
-
 **Key Architectural Layers**
 
 * **Edge Enforcement Layer**
