@@ -1,5 +1,13 @@
 # Sovereign Shield • Zero-Trust Anti-Fraud Kernel
-### Stop Losing Millions to Ghost Tokens & Proxy Abuse — Deploy in Under 24 Hours
+
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen)](https://github.com/ECZ-Quantum-Labs/Sovereign-Shield)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](https://github.com/ECZ-Quantum-Labs/Sovereign-Shield/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/Version-v1.0.0-blue)](https://github.com/ECZ-Quantum-Labs/Sovereign-Shield/releases)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-yellow?logo=python)](https://www.python.org/)
+[![Security](https://img.shields.io/badge/Security-Zero--Trust-black)](https://github.com/ECZ-Quantum-Labs/Sovereign-Shield)
+[![Kafka](https://img.shields.io/badge/Kafka-Enabled-purple?logo=apache-kafka)](https://kafka.apache.org/)
+
+**Stop Losing Millions to Ghost Tokens & Proxy Abuse — Deploy in Under 24 Hours**
 
 **Your AI API is being resold for pennies right now.**
 We built **Sovereign Shield** to make sure you never have to find out the hard way.
