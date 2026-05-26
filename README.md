@@ -1,3 +1,4 @@
+
 # Sovereign Shield • Zero-Trust Anti-Fraud Kernel
 
 [![Status](https://img.shields.io/badge/Status-Stable-brightgreen)](https://github.com/ECZ-Quantum-Labs/Sovereign-Shield)
@@ -77,40 +78,45 @@ This isn't a bolt-on dashboard. It's a minimalist, hardened enforcer that sits s
 
 Sovereign Shield sits as a silent, stateless enforcement layer directly in your API path.
 It does not rely on external databases or third‑party services—every decision is made at the edge, in milliseconds.
+
+```
+
 API REQUEST
-    |
-    v
-EDGE ENFORCEMENT LAYER
-    |
-    +--[Session Valid]----> HARDWARE ATTESTATION MODULE
-    |                            |
-    |                            +--[Pass]--> API GATEWAY --> YOUR SERVICE
-    |                            |
-    |                            +--[Fail]--> THREAT SIGNAL
-    |
-    +--[Session Suspicious]----> KAFKA REVOCATION MESH
-                                     |
-                                     v
-                              PROPAGATION TO ALL NODES
-                                     |
-                                     v
-                              THREAT QUARANTINE ENCLAVE
-    
+|
+v
+EDGE ENFORCEMENT
+|
++--[Valid]----> HARDWARE ATTEST
+|                   |
+|                   +--[Pass]--> GATEWAY --> SERVICE
+|                   |
+|                   +--[Fail]--> THREAT SIGNAL
+|
++--[Suspicious]--> KAFKA MESH
+|
+v
+PROPAGATION
+|
+v
+QUARANTINE
+
+```
+
 **Key Architectural Layers**
 
-- **Edge Enforcement Layer**
+* **Edge Enforcement Layer**
   Validates every request before it touches your backend. Session-bound, TTL-gated, and identity‑aware.
 
-- **Hardware Attestation Module**
+* **Hardware Attestation Module**
   Fingerprints the underlying device and OS. Detects emulators, cloud VMs, and proxy stacks.
 
-- **Kafka Revocation Mesh**
+* **Kafka Revocation Mesh**
   Propagates kill signals across distributed nodes in milliseconds. Once revoked, a session cannot be reused anywhere in your infrastructure.
 
-- **Threat Quarantine Enclave**
+* **Threat Quarantine Enclave**
   Suspicious sessions are isolated and logged with full forensic context. No data leaves the enclave.
 
-- **API Gateway Integration Pattern**
+* **API Gateway Integration Pattern**
   Plugs directly into Kong, NGINX, or Envoy. No application code changes required.
 
 ---
@@ -129,4 +135,5 @@ We typically offer:
 📧 **araxteam@proton.me** | 🌐 ECZ Quantum Labs, Switzerland
 
 ---
-*Sovereign Shield. Because the next proxy reseller is already testing your API.*                          
+*Sovereign Shield. Because the next proxy reseller is already testing your API.*
+```
