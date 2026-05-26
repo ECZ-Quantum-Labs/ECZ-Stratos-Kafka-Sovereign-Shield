@@ -1,4 +1,7 @@
 ---
+title: "Sovereign Shield"
+---
+
 
 Sovereign Shield • Zero-Trust Anti-Fraud Kernel
 
