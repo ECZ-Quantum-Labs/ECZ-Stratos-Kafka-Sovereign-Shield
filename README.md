@@ -78,7 +78,7 @@ This isn't a bolt-on dashboard. It's a minimalist, hardened enforcer that sits s
 Sovereign Shield sits as a silent, stateless enforcement layer directly in your API path.
 It does not rely on external databases or third‑party services—every decision is made at the edge, in milliseconds.
 
-```
+---
 
 API REQUEST
 |
@@ -98,6 +98,8 @@ PROPAGATION
 |
 v
 QUARANTINE
+
+---
 
 **Key Architectural Layers**
 
